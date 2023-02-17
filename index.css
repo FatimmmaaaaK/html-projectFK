@@ -1,16 +1,30 @@
+.pageheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 *{
     font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+    background-color: #c8e4f4;
+    color:#000000
+}
+.imageprop{
+    width: 50px;
 }
 
+.section-title{
+    align-items: center;
+}
 
-.introductioncontent {
+/* .introductioncontent {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     padding: 50px;
-}
+} */
 
-.section-Introduction {
+/* .section-Introduction {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap ;
@@ -19,21 +33,16 @@
     justify-content: flex-start;
     background-color: #f5f5dc;
     
-}
+} */
 
-.thebody {
+
+
+
+/* .thebody {
     background-color:#dcdcdc;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400;
-}
-
-.gtkm-container{
-    background-color: #bbf77b;
-    display: grid;
-    grid-template-columns:;
-    column-gap: 6.4rem;
-    row-gap: 9.6rem;
-}
+} */
 
 .body-intro{ 
     display: flex;
@@ -47,23 +56,21 @@
 main{
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: 15px;
     width: 100%;
     padding: 5px;
     flex-wrap: wrap ;
-    align-items: center;
-    text-align: center;
-    justify-content: flex-start;
+    /* background-color: #a6a4a4e1; */
+    gap: 1rem;
+
 }
 
-nav{
-    display: flex;
+/* nav{
+    display: inline-block;
     margin: 30px auto;
     width: 70%;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 2rem
-}
+    padding: .5rem
+} */
 
 .introductioncontent{
     display: flex;
