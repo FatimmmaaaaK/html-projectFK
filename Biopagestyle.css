@@ -1,0 +1,7 @@
+.gtkm-container{
+    background-color: #bbf77b;
+    display: grid;
+    grid-template-columns:;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
