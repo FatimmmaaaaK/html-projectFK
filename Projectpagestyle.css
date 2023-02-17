@@ -1,0 +1,18 @@
+.banner{
+    display: flex;
+    margin-top: 80px;
+
+}
+.left-column, .right-column{
+    flex-basis: 50%;
+}
+.right-column img{
+    width: 100%;
+}
+
+.left-column h1{
+    font-size: 35px;
+}
+.left-column h3{
+    font-size: 20px;
+}

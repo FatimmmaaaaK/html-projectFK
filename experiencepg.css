@@ -1,5 +1,6 @@
 *{
     margin: 10px;
+    font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
 }
 
 p{
@@ -25,10 +26,13 @@ body{
 .work-container{
     display:flex;
     flex-direction: column;
+    background: #f4c2459a;
+    justify-content: center;
+    align-items: center;
     border: 5px solid ;
     border-radius: 10px;
-    background-color: white;
-    text-shadow: white;
+    /* background-color: white;
+    text-shadow: white; */
 }
 main{
     border: 3px solid black;
@@ -36,6 +40,7 @@ main{
 
 }
 .jobdesc{
+    
     height: 40px;
     margin-bottom: 10px;
 }

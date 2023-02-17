@@ -1,3 +1,6 @@
+*{
+    font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+}
 
 
 .introductioncontent {
@@ -8,18 +11,20 @@
 }
 
 .section-Introduction {
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
     background-color: #f5f5dc;
+    
 }
 
 .thebody {
     background-color:#dcdcdc;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400;
-}
-
-.section-GTKM-links {
-    display: flex;
 }
 
 .gtkm-container{
@@ -40,14 +45,23 @@
 }
 
 main{
+    display: flex;
+    flex-direction: column;
     margin: 50px;
+    width: 100%;
+    padding: 5px;
+    flex-wrap: wrap ;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
 }
 
 nav{
     display: flex;
+    margin: 30px auto;
     width: 70%;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 2rem
 }
 
@@ -58,16 +72,7 @@ nav{
     flex-grow: 1;
 
 }
-header{
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap ;
-    align-items: center;
-    text-align: center;
-    justify-content: flex-start;
-}
+
 
 h1{
     padding:2rem;
