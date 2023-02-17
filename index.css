@@ -55,6 +55,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-grow: 1;
 
 }
 header{
@@ -66,7 +67,6 @@ header{
     align-items: center;
     text-align: center;
     justify-content: flex-start;
-    background-color:;
 }
 
 h1{
