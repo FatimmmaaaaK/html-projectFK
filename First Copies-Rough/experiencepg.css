@@ -1,42 +1,58 @@
 *{
     margin: 10px;
     font-family: "Didot", "Comic Sans MS", "Helvetica Neue", sans-serif;
+    color: rgb(255, 255, 255);
 }
 
-p{
-    font-size: 40px;
+.pageheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
+p{
+    font-size: 30px;
+}
+
+.imageprop{
+    width: 50px; ;
+}
+
+
 @media only screen and (min-width: 768px) {
     body
 }
 body{
-    background-color: lightgrey;
+    background-color:#aa1f1f9a;
 }
 .flex-container{
+    display: flex;
+    flex-direction: row;
     padding:rem;
     margin:1rem;
-    color:#002245;
-    background-color: white;
+    color:#ffffff;
+    background-color: rgb(166, 48, 48);
     font-size: 1.5rem;
     font-weight: 100;
     text-align: center;
-    border: 1px solid #e4e8ea;
+    border: 1px solid #d4c2c2;
     flex-grow:1;
+    flex-wrap: wrap;
 }
 .work-container{
     display:flex;
     flex-direction: column;
-    background: #f4c2459a;
+    background: rgb(227, 121, 121);
     justify-content: center;
     align-items: center;
-    border: 5px solid ;
+    border: 2px solid ;
     border-radius: 10px;
     /* background-color: white;
     text-shadow: white; */
 }
 main{
-    border: 3px solid black;
-    background-color:lightgrey;
+    border: 1px solid rgb(214, 72, 72);
+    background-color:rgb(193, 105, 105);
 
 }
 .jobdesc{
